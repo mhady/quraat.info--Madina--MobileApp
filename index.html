@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" id='viewport_to_scal'
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title></title>
+    <script src="js/lib/jquery-1.11.0.min.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/less.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="js/EasyAutocomplete/easy-autocomplete.css">
+    <link rel="stylesheet" type="text/css" href="js/EasyAutocomplete/easy-autocomplete.themes.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+        /******************* radial-progress   ********************/
+        /*@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+*/
+
+        @font-face {
+            font-family: 'DroidKufi';
+            src: url(./fonts/DroidKufi-Regular.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 100;
+            src: local('Lato Hairline'), local('Lato-Hairline'), url(./fonts/lato/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Lato Light'), local('Lato-Light'), url(./fonts/lato/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lato Regular'), local('Lato-Regular'), url(./fonts/lato/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lato Bold'), local('Lato-Bold'), url(./fonts/lato/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            src: local('Lato Black'), local('Lato-Black'), url(./fonts/lato/G2uphNnNqGFMHLRsO_72ngLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 100;
+            src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(./fonts/lato/CggrdU0t5c42NcNxN-VM33YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 300;
+            src: local('Lato Light Italic'), local('Lato-LightItalic'), url(./fonts/lato/2HG_tEPiQ4Z6795cGfdivLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Lato Italic'), local('Lato-Italic'), url(./fonts/lato/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(./fonts/lato/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 900;
+            src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(./fonts/lato/VNUH7ZAcagYBWsAiBBCEY7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+        }
+
+        .radial-progress {
+            @circle-size: 170px;
+            @circle-background: #d6dadc;
+            @circle-color: #97a71d;
+            @inset-size: 150px;
+            @inset-color: #fbfbfb;
+            @transition-length: 1s;
+            @shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+            @percentage-color: #97a71d;
+            @percentage-font-size: 15px;
+            @percentage-text-width: 100px;
+            display: block;
+            position: fixed;
+            opacity: 0.7;
+            z-index: 100;
+            width: @circle-size;
+            height: @circle-size;
+            background-color: @circle-background;
+            border-radius: 50%;
+
+            .circle {
+
+                .mask,
+                .fill,
+                .shadow {
+                    width: @circle-size;
+                    height: @circle-size;
+                    position: absolute;
+                    border-radius: 50%;
+                }
+
+                .shadow {
+                    box-shadow: @shadow inset;
+                }
+
+                .mask,
+                .fill {
+                    -webkit-backface-visibility: hidden;
+                    transition: -webkit-transform @transition-length;
+                    transition: -ms-transform @transition-length;
+                    transition: transform @transition-length;
+                    border-radius: 50%;
+                }
+
+                .mask {
+                    clip: rect(0px, @circle-size, @circle-size, @circle-size/2);
+
+                    .fill {
+                        clip: rect(0px, @circle-size/2, @circle-size, 0px);
+                        background-color: @circle-color;
+                    }
+                }
+            }
+
+            .inset {
+                width: @inset-size;
+                height: @inset-size;
+                position: absolute;
+                margin-left: (@circle-size - @inset-size)/2;
+                margin-top: (@circle-size - @inset-size)/2;
+                background-color: @inset-color;
+                border-radius: 50%;
+                box-shadow: @shadow;
+
+                .percentage,
+                .percentagelabel {
+                    width: @percentage-text-width;
+                    position: absolute;
+                    top: (@inset-size - @percentage-font-size) / 2;
+                    left: (@inset-size - @percentage-text-width) / 2;
+                    line-height: 1;
+                    text-align: center;
+                    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    color: @percentage-color;
+                    font-weight: 800;
+                    font-size: @percentage-font-size;
+                }
+            }
+
+            @i: 0;
+            @increment: 180deg / 100;
+
+            .loop (@i) when (@i <=100) {
+                &[data-progress="@{i}"] {
+                    .circle {
+
+                        .mask.full,
+                        .fill {
+                            -webkit-transform: rotate(@increment * @i);
+                            -ms-transform: rotate(@increment * @i);
+                            transform: rotate(@increment * @i);
+                        }
+
+                        .fill.fix {
+                            -webkit-transform: rotate(@increment * @i * 2);
+                            -ms-transform: rotate(@increment * @i * 2);
+                            transform: rotate(@increment * @i * 2);
+                        }
+                    }
+
+                    .inset .percentage:before {
+                        content: "@{i}%"
+                    }
+                }
+
+                .loop(@i + 1);
+            }
+
+            .loop(@i);
+        }
+
+        /******************* radial-progress  end  ********************/
+
+        body {
+            margin: 0px;
+        }
+
+        .image {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            /* display:inline-block; */
+            /*background-color: aqua; */
+            width: 100%;
+            /*   border-style: solid;*/
+            z-index: 1;
+        }
+
+        /*.overlay {
+    display:none;
+}
+ */
+
+        .overlay {
+            /* position: absolute !important;*/
+            width: 100%;
+            height: 100%;
+            /*  background:rgba(0,0,0,.5);  */
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            /* All other styling - see example */
+            img {
+                vertical-align: top;
+                /* Default is baseline, this fixes a common alignment issue */
+            }
+        }
+
+        .sh_page {
+            /*	width:1110px;
+	height:1602px;
+	*/
+            width: 100%;
+            height: 1602px;
+        }
+
+        .icon {
+            width: 32px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .mark_place_label {
+            float: right;
+            margin-right: 7%;
+        }
+
+        .plus {
+            float: right;
+        }
+
+        .activated {
+            /*background-color: gray;
+    display: inline-table;*/
+        }
+
+        ion-item.item {
+            padding: 0px;
+            height: 49px;
+        }
+
+        label.item.item-input.item-select {
+            height: 50px;
+        }
+
+        ion-item.item-accordion.item {
+            padding: 10px;
+            height: 49px;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <script src="js/EasyAutocomplete/jquery.easy-autocomplete.js"></script>
+
+
+
+    <!--	 
+ <script src="lib/waypoints/noframework.waypoints.min.js"></script>  
+ <script src="http://imakewebthings.com/jquery-waypoints/waypoints.min.js"></script>
+-->
+
+    <link rel="stylesheet" href="css/audio_player.css">
+    <script type="text/javascript">
+        $('head style[type="text/css"]').attr('type', 'text/less');
+        less.refreshStyles();
+        /*
+        window.randomize = function() {
+        	$('.radial-progress').attr('data-progress', Math.floor(Math.random() * 100));
+        }
+        setTimeout(window.randomize, 200);
+        $('.radial-progress').click(window.randomize);
+        */
+    </script>
+
+    <!-- js -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+    <script type="text/javascript" src="js/controllers/main_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/about_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/audio_player.js"></script>
+    <script type="text/javascript" src="js/controllers/factory.js"></script>
+    <script type="text/javascript" src="js/controllers/help_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/tables_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/audio_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/tashaboh_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/aya_options_controller.js"></script>
+    <script type="text/javascript" src="js/controllers/setting_controller.js"></script>
+
+    
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99035299-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-99035299-1');
+    </script>
+
+</head>
+
+<body ng-app="starter" class="platform-android platform-cordova platform-webview"
+    style="padding: 0px; margin: 0px;overflow:hidden;">
+    <ion-nav-view></ion-nav-view>
+
+</body>
+
+</html>

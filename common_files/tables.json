@@ -1,0 +1,242 @@
+﻿tables_data=[
+ {
+   "table_display": "هاء الكناية بالدرة",
+   "image_name": "S000A018T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "رموز قراء الشاطبية مجتمعة",
+   "image_name": "S000A025T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "هاء الكناية",
+   "image_name": "S000A158T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "همزتين من كلمة لهشام",
+   "image_name": "S000A183T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "إذ وقد وتاء مؤنث وهل بل-1",
+   "image_name": "S000A259T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "إذ وقد وتاء مؤنث وهل بل-2",
+   "image_name": "S000A260T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "إذ وقد وتاء مؤنث وهل بل-3",
+   "image_name": "S000A261T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "حروف تقاربت مخارجها",
+   "image_name": "S000A277T",
+   "enabled": "Yes"
+ },
+{
+   "table_display": "مواضع ياءات الاضافة 1-2",
+   "image_name": "S000A389T",
+   "enabled": "Yes"
+ },
+{
+   "table_display": "مواضع ياءات الاضافة 2-2",
+   "image_name": "S000A405T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "ياء لام العرف",
+   "image_name": "S000A407T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "ملخص ياءات الزوائد",
+   "image_name": "S000A420T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "تظاهرون ..أسارى تفادوهم",
+   "image_name": "S002A085T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "جبريل وميكال",
+   "image_name": "S002A098T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "يرى .. إذ يرون ..أن..أن",
+   "image_name": "S002A165T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "ونعلمه .. كهيئة الطير .. طيرا",
+   "image_name": "S003A048T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "تأمنه بقنطار يؤده..بدينار",
+   "image_name": "S003A075T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "يرد ثواب الدنيا نؤته..الآخرة",
+   "image_name": "S003A145T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "تحسبن .. تحسبنهم",
+   "image_name": "S003A188T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "حسنة يضاعفها",
+   "image_name": "S004A040T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "ويوم نحشرهم .. نقول",
+   "image_name": "S006A022T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "تكن فتنتهم .. ربنا",
+   "image_name": "S006A023T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "تكن ميتة .. تكون ميتة",
+   "image_name": "S006A139T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "و إن كلا لما",
+   "image_name": "S011A111T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "وزرع ونخيل صنوان وغير ",
+   "image_name": "S013A004T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "الاستفهام المتكرر",
+   "image_name": "S013A005T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "مت .. نسيا .. من تحتها",
+   "image_name": "S019A023T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "بملكنا ..حملنا",
+   "image_name": "S020A087T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "أذن للذين يقاتلون",
+   "image_name": "S022A039T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "فكأين..أهلكناها وهي..فهي",
+   "image_name": "S022A045T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "قال كم لبثتم..فسئل",
+   "image_name": "S023A112T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "دري يوقد",
+   "image_name": "S024A035T",
+   "enabled": "Yes"
+ },
+{
+   "table_display": "إن شاء جعل لك",
+   "image_name": "S025A010T",
+   "enabled": "Yes"
+ },
+  {
+   "table_display": "أتمدونن .. آتان",
+   "image_name": "S027A036T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "معي ردءا يصدقني",
+   "image_name": "S028A034T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "مودة بينكم",
+   "image_name": "S029A025T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "مبينة يضاعف",
+   "image_name": "S033A030T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "نشأ نخسف .. كسفا",
+   "image_name": "S034A009T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "لسبأ في مسكنهم",
+   "image_name": "S034A015T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "أكل خمط",
+   "image_name": "S034A016T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "ربنا باعد",
+   "image_name": "S034A019T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "لمن أذن .. إذا فزع",
+   "image_name": "S034A023T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "يس والقرآن",
+   "image_name": "S036A001T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "أتخذناهم سخريا",
+   "image_name": "S038A062T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "أو يظهر .. الفساد",
+   "image_name": "S040A026T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "لبيوتهم سقفا..لما..الدنيا",
+   "image_name": "S043A034T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "سلاسلا .. قواريرا معا",
+   "image_name": "S076A004T",
+   "enabled": "Yes"
+ },
+ {
+   "table_display": "خضر وإستبرق",
+   "image_name": "S076A021T",
+   "enabled": "Yes"
+ }
+]

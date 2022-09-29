@@ -1,0 +1,103 @@
+﻿alkobra=[
+    {"shikh" : "*الشيخ أحمد طلبة", "khatma" : "رواية حفص", "folder" : "ATolbaHfs", "text" : "المصحف كاملا","tosura" : "114" , "toaya" : "006", "Type" : 0,"active_sound" : 1, "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    ,
+    { "shikh" : "*الشيخ عبدالحكيم عبداللطيف", "khatma" : "رواية شعبة", "folder" : "AbdulHakim", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 0 , "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    ,
+    { "shikh" : "*الشيخ طه الفهد", "khatma" : "الصغرى جمعا", "folder" : "Taha", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 0 , "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    ,
+    { "shikh" : "*الشيخ هاني بركات", "khatma" : "الكبرى جمعا", "folder" : "Hany", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 1 , "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    ,
+    { "shikh" : "*الشيخ أحمد طلبة", "khatma" : "الكبرى بالأوجه والأدلة", "folder" : "A-Tolba", "text" : "وسيق الذين كفروا", "tosura" : "039" , "toaya" : "071", "Type" : 1 , "active_sound" :1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    , 
+    { "shikh" : "*صالح عبدالمقصود صالح", "khatma" : "جمع الصغرى وبيان الأوجه", "folder" : "Saleh", "text" : "نهاية القصص", "tosura" : "028" , "toaya" : "088", "Type" : 0, "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    , 
+    { "shikh" : "*أ. حمادة خطاب", "khatma" : "تعليمية الكبرى", "folder" : "HamadaK", "text" : "الجزء الأول", "tosura" : "002" , "toaya" : "141", "Type" : 1, "active_sound" : 1, "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer"  }
+    , 
+    { "shikh" : "*مجموعة أساتذة", "khatma" : "تعليمية الصغرى", "folder" : "HamadaS", "text" : "الجزء الأول", "tosura" : "002" , "toaya" : "141", "Type" : 0, "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    ,
+    { "shikh" : "*تيسير ثلاث الدرة", "khatma" : "ثلاث الدرة جمعا", "folder" : "Dorra", "text" : "بعض الأرباع", "tosura" : "093" , "toaya" : "011", "Type" : 0 , "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    , 
+    { "shikh" : "*عبدالرحمن الحذيفي", "khatma" : "رواية قالون", "folder" : "HuzaifyQalon", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer"  }
+    , 
+    { "shikh" : "*ياسين الجزائري", "khatma" : "رواية ورش", "folder" : "YasseenWarsh", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer"  }
+    , 
+    { "shikh" : "*مفتاح السلطني", "khatma" : "دوري أبي عمرو", "folder" : "MuftahDoriAmr", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+    , 
+    { "shikh" : "*عبدالرشيد صوفي", "khatma" : "رواية السوسي", "folder" : "RashidSosi", "text" : "المصحف كاملا", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://sound.quraat.info/" ,"file_name_format":"tayseer" }
+  , 
+    { "shikh" : "إبراهيم الأخضر", "khatma" : "حفص", "folder" : "ibrahim_alakhdar", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/ibrahim_alakhdar/32/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "شيخ أبو بكر الشاطري", "khatma" : "حفص", "folder" : "shaik_abu_baker_alshatri", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/shaik_abu_baker_alshatri/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "أحمد بن علي العجمي", "khatma" : "حفص", "folder" : "ahmed_alajmy", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/ahmed_alajmy/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "أحمد نعينع", "khatma" : "حفص", "folder" : "ahmed_neana", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/ahmed_neana/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "أكرم العلاقمي", "khatma" : "حفص", "folder" : "akram_alalaqmy", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/akram_alalaqmy/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "خالد القحطاني", "khatma" : "حفص", "folder" : "khalid_alqahtani", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/khalid_alqahtani/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "خليفة الطنيجي", "khatma" : "حفص", "folder" : "khalefa_altunaiji", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/khalefa_altunaiji/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "سعود الشريم", "khatma" : "حفص", "folder" : "saud_alshuraim", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/saud_alshuraim/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "سهل ياسين", "khatma" : "حفص", "folder" : "sahl_yassin", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/sahl_yassin/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "صلاح البدير", "khatma" : "حفص", "folder" : "salah_albudair", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/salah_albudair/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "صلاح بو خاطر", "khatma" : "حفص", "folder" : "salaah_bukhatir", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/salaah_bukhatir/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالباسط عبدالصمد", "khatma" : "حفص", "folder" : "abdulbasit_abdulsamad", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdulbasit_abdulsamad/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالباسط عبدالصمد", "khatma" : "حفص", "folder" : "abdulbasit_abdulsamad_mujawwad", "text" : "المصحف المجود", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdulbasit_abdulsamad_mujawwad/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالرحمن السديس", "khatma" : "حفص", "folder" : "abdurrahmaan_alsudais", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdurrahmaan_alsudais/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالله المطرود", "khatma" : "حفص", "folder" : "abdullah_almatroud", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdullah_almatroud/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالله بصفر", "khatma" : "حفص", "folder" : "abdullah_basfar", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdullah_basfar/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالله عواد الجهني", "khatma" : "حفص", "folder" : "abdullaah_aljohani", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdullaah_aljohani/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "عبدالمحسن القاسم", "khatma" : "حفص", "folder" : "abdulmohsin_alqasim", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/abdulmohsin_alqasim/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "علي الحذيفي", "khatma" : "حفص", "folder" : "ali_alhuthaify", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/ali_alhuthaify/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "علي جابر", "khatma" : "حفص", "folder" : "ali_jaber", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/ali_jaber/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "علي حجاج السويسي", "khatma" : "حفص", "folder" : "ali_hajjaj", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/ali_hajjaj/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "فارس عباد", "khatma" : "حفص", "folder" : "fares_abbad", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/fares_abbad/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "ناصر القطامي", "khatma" : "حفص", "folder" : "nasser_alqatami", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/nasser_alqatami/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "هاني الرفاعي", "khatma" : "حفص", "folder" : "hani_alrifai", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/hani_alrifai/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "ياسر الدوسري", "khatma" : "حفص", "folder" : "yasser_aldossary", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/yasser_aldossary/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "ماهر المعيقلي", "khatma" : "حفص", "folder" : "maher_almuaiqly", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/maher_almuaiqly/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمد الطبلاوي", "khatma" : "حفص", "folder" : "mohammad_altablaway", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mohammad_altablaway/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمد أيوب", "khatma" : "حفص", "folder" : "mohammad_ayyoub", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mohammad_ayyoub/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمد جبريل", "khatma" : "حفص", "folder" : "mohammad_jibreel", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mohammad_jibreel/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمد صديق المنشاوي", "khatma" : "حفص", "folder" : "mohammad_alminshawi", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mohammad_alminshawi/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمد صديق المنشاوي", "khatma" : "حفص-مجود", "folder" : "mohammad_alminshawi_mujawwd", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mohammad_alminshawi_mujawwd/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمد عبدالكريم", "khatma" : "حفص", "folder" : "mohammad_abdulkarim", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mohammad_abdulkarim/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمود خليل الحصري", "khatma" : "حفص", "folder" : "mahmood_alhusary", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mahmood_alhusary/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمود خليل الحصري", "khatma" : "حفص-مجود", "folder" : "mahmood_alhusary_mujawwd", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mahmood_alhusary_mujawwd/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمود خليل الحصري", "khatma" : "حفص-المعلم", "folder" : "mahmood_alhusary_muallim", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mahmood_alhusary_muallim/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "محمود علي البنا", "khatma" : "حفص", "folder" : "mahmoud_ali_albanna", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mahmoud_ali_albanna/32/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "مشاري العفاسي", "khatma" : "حفص", "folder" : "mishary_alafasy", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"http://verse.mp3quran.net/arabic/mishary_alafasy/64/" ,"file_name_format":"qmp3" }
+  ,
+    { "shikh" : "ياسر سلامة", "khatma" : "حفص", "folder" : "yaser_salamah", "text" : " MP3Quran ", "tosura" : "114" , "toaya" : "006", "Type" : 0, "active_sound" : 1 , "url":"https://verse.mp3quran.net/arabic/yaser_salamah/64/" ,"file_name_format":"qmp3" }
+]

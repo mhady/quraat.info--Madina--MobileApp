@@ -1,0 +1,214 @@
+<ion-view view-title="quraatabout">
+
+    <ion-content scroll="true" id="body_content" style="">
+
+
+        <ion-tabs class="index_tabs tabs-positive tabs-icon-top tables_tab   tabs-bottom tabs-standard">
+
+            <!-- <ion-tab id="osol_tab_name" title="اصول"  on-select='getZyadat();'> -->
+                <ion-tab id="khedma_tab_name" title="خدمات"      on-select='getKhatamat("khedma_content");'>
+                    <div id="khedma_content" class="khedma_content" style="">
+
+                    
+                    </div>
+            
+                
+            </ion-tab>
+            <ion-tab title="تلاوة"  on-select='getTelawah();'>
+                <div>
+                    <form id="rwah_audio">
+
+                        <div class="container" style="width: 80%;margin: auto;">
+                            <div class="row">
+                                <h3 class="heading_h"> قم باختيار القارئ </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <label for="rwah_list"> القارئ </label>
+                                        <select class="form-control" name="rwah_list" id="rwah_list"
+                                            style="width: 80%;height: 40px;"></select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="width: 80%;">
+                                    <div class="form-group">
+                                        <label for="play_audio"> تشغيل الصوت </label>
+                                        <!-- <input class="form-control" type="submit" value="تشغيل " id="play_audio"> -->
+                                        <input class="form-control" type="submit" value=" تشغيل الصوت  " id="play_audio"
+                                            onclick="submit_form()">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <label for="from_sura_list"> من </label>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                                <select class="form-control" name="from_sura_list" id="from_sura_list">
+                                                    <option value=""> السورة </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                                <select class="form-control" name="from_aya" id="from_aya">
+                                                    <option value=""> آية </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <label for="to_sura_list"> إلى </label>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                                <select class="form-control" name="to_sura_list" id="to_sura_list">
+                                                    <option value=""> السورة </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                                <select class="form-control" name="to_aya" id="to_aya">
+                                                    <option value=""> آية </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="container" style="width: 80%;margin: auto;">
+                        <div class="row">
+                            <div id="audio_playlist_container">
+                                <audio src="" controls id="audioPlayer" style="display:none"></audio>
+
+                                <ul id="playlist">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ion-tab>
+            <ion-tab title="بالرسم" on-select='getTables();'>
+                <div id="tables_content">
+
+                </div>
+                <div id='table_image_div'><img id='table_image'> </div>
+            </ion-tab>
+
+            <ion-tab title="تقدمات" on-select='getIntros(0);'>
+                <div id="intro_content">
+                </div>
+
+            </ion-tab>
+            <ion-tab title="ختمات" on-select='getKhatamat("khatma_content");' >
+                <!-- <ion-tab title="ختمات" on-select='getMoyasara();'> -->
+                <!-- <div id="moyasara_content" style=""> -->
+                <div id="khatma_content" class="khatma_content" style="">
+
+                    
+                </div>
+
+            </ion-tab>
+            
+            <ion-tab title="فرشيات" on-select='getfarshiat();'>
+                <div id="farshiat_content">
+                </div>
+                <div id="position_item_view"></div>
+            </ion-tab>
+
+            <img src="images/close-icon.png"
+                style="width: 24px;height: 24px;margin: auto 5px;position: absolute;left: 0;top: 9px;z-index: 99;"
+                ng-click="close_tables()">
+
+
+
+        </ion-tabs>
+ 
+ 
+    </ion-content>
+
+
+    <!-- peronal modal-->
+ <div class="person_modal modal fade" id="personModal" role="dialog" style="display: none; background: rgba(0, 0, 0, 0.42);" data-backdrop="false" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="max-width:1100px;">
+            <div class="modal-header">
+                <button type="button"  onclick="$('#personModal').hide();" class="close dismissModal right" data-dismiss="modal" aria-hidden="true" style="margin:0 ;">×</button>
+
+                <h4 class="modal-title right"> تفاصيل عن القارئ/ المراجع     <span class="reader"></span></h4>
+
+            </div>
+            <div class="modal-body">
+                <div id="person_modal">
+                    <div class="row">
+                <div class="col-md-12 ">
+                    <div class="col-md-5 col-sm-4 col-1 col-xl-5 col-lg-5  person_img" style="float: left;">
+                        <img src=".." style="width: 310px;">
+                    </div>
+                    <div id="person_info_data" class="col-xs-12 col-sm-10   right " style="float: left;">محمد مسعود محمد علواني<br><br>مدرس بكلية القرآن الكريم جامعة الأزهر بطنطا<br><br> مجاز بالقراءات العشر الصغرى والكبرى.<br><br>قرأ على عدد من الشيوخ منهم: <br><br>الشيخ/ البدري محمد المالكي (رحمه الله).<br><br>الشيخ/ محمد عبد الحميد عبد الله (رحمه الله).<br><br>د. محمد إبراهيم السيد (الشهير بمحمد سكر - حفظه الله). <br><br>الشيخ/ حامد السيد الجمسي  (رحمه الله).<br><br>د.محمد محمد عبد العظيم - حفظه الله.<br><br>الشيخ/ محمد مصطفى الوكيل- حفظه الله.<br><br>الشيخ سعيد متولي (رحمه الله).</div>
+
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- -->
+ <!-- quartar modal-->
+ <div class=" modal1 modal fade" id="myModal1" role="dialog" style="display: none;" data-backdrop="false">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header"> 
+            <button type="button" onclick='s=$("#myModal1 #q_audioPlayer")[0];s.pause();s.currentTime = 0;' class="close dismissModal right" data-dismiss="modal" aria-hidden="true" style="margin:0 ;">×</button>
+           <h4 class="modal-title">  <span class="quarter_name"></span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="col-md-12 ">
+            <div class="col-md-3 col-md-3 col-sm-2 col-1 col-xl-3 col-lg-3 right"> 
+              <div id="reader_area">
+               <!-- <div class="person_type"><label>القارئ   </label></div> -->
+               <div class="person_area">
+               <!-- <div class="person_image"><img class="main_img" src="images/quraan2.png" onerror="javascript:this.src='images/quraan2.png'"></div>     -->
+                <div class="person_name"><span></span> </div>
+               </div>
+               <div class="additional_person_area">
+                 <img class="additional_img" style="display: none;" onerror="javascript:this.src='images/quraan2.png'" src="images/quraan2.png">
+                 <div class="person_name"><span></span> </div>
+                </div>
+             </div>
+            </div>
+          <div class="col-xs-12   center right">
+             <div id="quarter_area">
+              <audio controls="" id="q_audioPlayer" src=""></audio>
+          </div>
+              <div class="rob3_info"></div>
+           </div>
+         
+           <div class="col-xs-12   right">
+            <div id="auditor_area">
+ <!-- <div class="person_type"><label>المراجع  </label></div> -->
+ <div class="person_area">
+
+             <!-- <div class="person_image"><img class="main_img" onerror="javascript:this.src='images/quraan2.png'" src="images/quraan2.png"> -->
+         </div>            
+              <div class="person_name"><span></span></div>
+              </div>
+              <!-- <div class="additional_person_area">
+                <img class="additional_img" style="display: none;" onerror="javascript:this.src='images/quraan2.png'" src="images/quraan2.png">
+                <div class="person_name"><span></span> </div>
+               </div>               -->
+           </div>
+         </div>
+
+          </div>
+         </div> 
+      </div>
+    </div>
+  </div>
+  <!---->
+</ion-view>
